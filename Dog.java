@@ -21,7 +21,12 @@ public class Dog extends Animal {
 
 	public void setTime(int time) {
 		exerciseTime = time;
+	}
 
+	// override .toString() to display all the dog's details
+	@Override
+	public String toString() {
+		return super.toString() + "; Exercise time: " + exerciseTime;
 	}
 
 }
