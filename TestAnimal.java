@@ -25,7 +25,21 @@ public class TestAnimal {
 		// test Cat subclass
 		Cat c = new Cat("Rosco", 9);
 		System.out.println(c);
+
+		// test .loseLife()
+		c.loseLife();
+
+		// test .getLivesLeft()
 		System.out.println(c.getLivesLeft());
+		c.loseLife();
+		c.loseLife();
+		c.loseLife();
+		c.loseLife();
+		c.loseLife();
+		c.loseLife();
+		c.loseLife();
+		c.loseLife();
+		c.loseLife();
 
 	}
 }

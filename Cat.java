@@ -19,4 +19,17 @@ public class Cat extends Animal {
 	public int getLivesLeft() {
 		return livesLeft;
 	}
+
+	// accidents happen
+	public void loseLife() {
+		// reduces a cat's life by one
+		// if no lives left we have a dead kitty
+
+		if (livesLeft > 0) {
+			livesLeft -= 1;
+		} else {
+			System.out.println("The cat it dead");
+		}
+
+	}
 }
