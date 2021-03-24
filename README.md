@@ -1,4 +1,4 @@
-# Exercise two
+# Exercise two - Kennel
 
 ## Here is a UML diagram for an Animal class:
 
