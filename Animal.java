@@ -14,4 +14,8 @@ public class Animal {
 	public String getName() {
 		return name;
 	}
+
+	public String toString() {
+		return super.toString();
+	}
 }

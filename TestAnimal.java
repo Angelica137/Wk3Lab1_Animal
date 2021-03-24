@@ -8,5 +8,8 @@ public class TestAnimal {
 		// .getName() returns name
 		System.out.println(a.getName());
 
+		// .toString() returns class details
+		System.out.println(a.toString());
+
 	}
 }
