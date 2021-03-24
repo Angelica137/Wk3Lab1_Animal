@@ -14,11 +14,11 @@ public class TestAnimal {
 		Dog d = new Dog("Bobi", 30);
 		System.out.println(d);
 
+		// set time
+		d.setTime(10);
+
 		// get time
 		System.out.println(d.getTime());
-
-		// set time
-		// d.setTime(30);
 
 	}
 }
