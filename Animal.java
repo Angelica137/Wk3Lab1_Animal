@@ -9,4 +9,9 @@ public class Animal {
 		// initialise instance variable
 		this.name = name;
 	}
+
+	// getter
+	public String getName() {
+		return name;
+	}
 }
