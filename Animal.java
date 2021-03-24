@@ -16,6 +16,6 @@ public class Animal {
 	}
 
 	public String toString() {
-		return super.toString();
+		return super.toString() + " Name : " + name;
 	}
 }
