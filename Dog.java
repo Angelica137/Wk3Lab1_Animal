@@ -9,7 +9,7 @@ public class Dog extends Animal {
 	private int exerciseTime;
 
 	// constructor
-	public Dog(String name, int time) {
+	public Dog(String name, int exerciseTime) {
 		super(name);
 		this.exerciseTime = exerciseTime;
 	}
@@ -17,6 +17,11 @@ public class Dog extends Animal {
 	// getters and setters
 	public int getTime() {
 		return exerciseTime;
+	}
+
+	public void setTime(int time) {
+		exerciseTime = time;
+
 	}
 
 }

@@ -17,5 +17,8 @@ public class TestAnimal {
 		// get time
 		System.out.println(d.getTime());
 
+		// set time
+		// d.setTime(30);
+
 	}
 }
