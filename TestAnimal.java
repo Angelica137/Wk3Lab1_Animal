@@ -22,5 +22,9 @@ public class TestAnimal {
 		// test .stoString()
 		System.out.println(d.toString());
 
+		// test Cat subclass
+		Cat c = new Cat("Rosco", 9);
+		System.out.println(c);
+
 	}
 }
