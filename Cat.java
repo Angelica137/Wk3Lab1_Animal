@@ -28,8 +28,14 @@ public class Cat extends Animal {
 		if (livesLeft > 0) {
 			livesLeft -= 1;
 		} else {
-			System.out.println("The cat it dead");
+			System.out.println("The cat is dead");
 		}
-
 	}
+
+	// override .toString() to display all the cat's info
+	@Override
+	public String toString() {
+		return super.toString() + "; Lives left to live: " + livesLeft;
+	}
+
 }

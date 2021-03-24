@@ -43,7 +43,7 @@ public class TestAnimal {
 
 		// test kitty is born with 9 lives
 		Cat c2 = new Cat("Tom", 1);
-		System.out.println(c2.getLivesLeft());
+		System.out.println(c2.toString());
 
 	}
 }
