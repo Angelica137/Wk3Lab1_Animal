@@ -5,7 +5,7 @@
 | Animal              |
 | ------------------- |
 | -name: String       |
-| -------------       |
+| ------------------- |
 | +Animal(String)     |
 |                     |
 | +getName() : String |
