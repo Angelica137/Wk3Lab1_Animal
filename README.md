@@ -2,11 +2,9 @@
 
 ## Here is a UML diagram for an Animal class:
 
----
+| Animal |
 
-## | Animal |
-
-## | -name: String |
+| -name: String |
 
 | +Animal(String) |
 | |
