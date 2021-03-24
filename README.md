@@ -2,14 +2,14 @@
 
 ## Here is a UML diagram for an Animal class:
 
-| Animal |
-
-| -name: String |
-
-| +Animal(String) |
-| |
+| Animal              |
+| ------------------- |
+| -name: String       |
+| -------------       |
+| +Animal(String)     |
+|                     |
 | +getName() : String |
-| |
+|                     |
 | +toString() :String |
 
 ---
