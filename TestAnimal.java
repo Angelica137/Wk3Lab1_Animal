@@ -14,5 +14,8 @@ public class TestAnimal {
 		Dog d = new Dog("Bobi", 30);
 		System.out.println(d);
 
+		// get time
+		System.out.println(d.getTime());
+
 	}
 }

@@ -14,4 +14,9 @@ public class Dog extends Animal {
 		this.exerciseTime = exerciseTime;
 	}
 
+	// getters and setters
+	public int getTime() {
+		return exerciseTime;
+	}
+
 }
