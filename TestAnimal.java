@@ -41,5 +41,9 @@ public class TestAnimal {
 		c.loseLife();
 		c.loseLife();
 
+		// test kitty is born with 9 lives
+		Cat c2 = new Cat("Tom", 1);
+		System.out.println(c2.getLivesLeft());
+
 	}
 }
